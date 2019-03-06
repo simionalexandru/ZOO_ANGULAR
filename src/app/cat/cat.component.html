@@ -1,0 +1,6 @@
+<h3>{{catInput?.name}}</h3> 
+<p>{{catInput?.done}}</p>
+<p>{{catInput?.type}}</p>
+<p>{{catInput?.breed}}</p>
+<p>{{catInput?.talk}}</p>
+<button (click)="onPlaySound()" [disabled]="catInput?.done" >Check sound</button>

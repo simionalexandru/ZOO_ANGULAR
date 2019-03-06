@@ -1,0 +1,6 @@
+<h3>{{snakeInput?.name}}</h3> 
+<p>{{snakeInput?.done}}</p>
+<p>{{snakeInput?.type}}</p>
+<p>{{snakeInput?.breed}}</p>
+<p>{{snakeInput?.talk}}</p>
+<button (click)="onPlaySound()" [disabled]="snakeInput?.done" >Check sound</button>

@@ -1,0 +1,6 @@
+<h3>{{animalsInput?.name}}</h3> 
+<p>{{animalsInput?.done}}</p>
+<p>{{animalsInput?.type}}</p>
+<p>{{animalsInput?.breed}}</p>
+<p>{{animalsInput?.talk}}</p>
+<button (click)="onPlaySound()" [disabled]="animalsInput?.done" >Check sound</button>
